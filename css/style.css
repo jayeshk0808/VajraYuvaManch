@@ -728,19 +728,19 @@ footer {
 }
 
 .brand-text {
-  display: block;
-  color: #ffffff;
-  font-size: 10px;
-  line-height: 1.2;
-  font-weight: 700;
-  text-align: center;
-  white-space: nowrap;
-}
-
-@media (max-width: 560px) {
-  .brand-text {
-    font-size: 10px;
-  }
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  height: auto !important;
+  overflow: visible !important;
+  position: relative !important;
+  z-index: 1001 !important;
 }
 
 .brand {
@@ -749,4 +749,6 @@ footer {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  height: auto;
+  overflow: visible;
 }
