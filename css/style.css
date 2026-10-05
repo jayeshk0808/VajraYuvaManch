@@ -665,7 +665,7 @@ footer {
 
 @media (max-width: 560px) {
   .nav-wrap {
-    min-height: 70px;
+    min-height: 125px;
   }
 
   .brand img {
