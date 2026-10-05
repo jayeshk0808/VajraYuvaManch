@@ -727,42 +727,18 @@ footer {
   }
 }
 
-@media (max-width: 700px) {
+.brand-text {
+  display: block;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
 
-  .nav-wrap {
-    min-height: 95px !important;
-    padding: 8px 15px !important;
-  }
-
-  .brand {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    flex-shrink: 0 !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
-
-  .brand img {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    width: 125px !important;
-    height: 55px !important;
-    max-width: none !important;
-    object-fit: contain !important;
-  }
-
+@media (max-width: 560px) {
   .brand-text {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    color: #ffffff !important;
-    font-size: 8px !important;
-    line-height: 1.2 !important;
-    font-weight: 700 !important;
-    text-align: center !important;
-    white-space: nowrap !important;
+    font-size: 8px;
   }
 }
